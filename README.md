@@ -2,6 +2,9 @@
 
 This repository contains a simple example of a [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server implemented in Rust using a newline-delimited JSON stdio transport.
 
+![MCP Rust SDK Demo](https://github.com/user-attachments/assets/428319c2-fce2-4654-ab34-cb6987ee4164)
+
+
 ## Status
 
 This is currently a basic test implementation created for learning and debugging purposes. It handles the MCP initialization handshake and basic list commands (`tools/list`, `resources/list`, `prompts/list`) as well as a dummy tool call (`tools/call`).

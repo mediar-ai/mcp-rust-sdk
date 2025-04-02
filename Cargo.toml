@@ -1,0 +1,19 @@
+[package]
+name = "test_rust_mcp_sdk"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+mcp_rust_sdk = "0.1.1"
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+serde_json = "1.0"
+bytes = "1.5"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["fmt", "registry", "env-filter"] }
+async-trait = "0.1"
+tracing-appender = "0.2"
+home = "0.5"
+serde = { version = "1.0", features = ["derive"] }
+tokio-util = { version = "0.7", features = ["codec"] }
+futures = "0.3"

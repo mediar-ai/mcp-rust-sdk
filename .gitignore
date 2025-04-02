@@ -1,0 +1,23 @@
+# Rust target directory
+/target/
+
+# Log files
+/logs/
+*.log
+
+# Generated docs
+/doc/
+
+# Editor configuration files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Environment variables file (if you ever use one)
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
